@@ -11,9 +11,9 @@ $txt1 = "A - (dataA.txt)";
 $txt2 = "B - (xxx.txt)";
 $txt3 = "C - (testtfile.txt)";
 
-fwrite($my, $txt);
-fwrite($myf, $txt);
-fwrite($myfilee, $txt);
+fwrite($my, $txt1);
+fwrite($myf, $txt2);
+fwrite($myfilee, $txt3);
 
 $fclose($my);
 $fclose($myf);
