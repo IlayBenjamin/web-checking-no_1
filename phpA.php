@@ -15,6 +15,7 @@ $download_url = "https://raw.githubusercontent.com/IlayBenjamin/web-checking-no_
 $self_link = "https://api.github.com/repos/IlayBenjamin/web-checking-no_1/contents/dataA.txt?ref=main";
 $git_link = "https://api.github.com/repos/IlayBenjamin/web-checking-no_1/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc";
 $html_link = "https://github.com/IlayBenjamin/web-checking-no_1/blob/main/dataA.txt";
+$permalink = "https://github.com/IlayBenjamin/web-checking-no_1/blob/0048fdf3dc8844f361ecd61dff337d4fb14c0f2b/dataA.txt";
 
 $type = "file";
 $name = "dataA.txt";
