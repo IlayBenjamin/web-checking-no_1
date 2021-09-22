@@ -1,27 +1,7 @@
-
 <?php
 
-$myfilee = fopen("testfile.txt", "w")
-
-$textFile = new TextFile('dataA.txt');
-
-$myfile = fopen('boom/data/dataB.txt', "w") or die("Unable to open file!");
-
-// Write without erasing without return line break at the end
-
-$textFile->write('test');
-
-// Write without erasing with return line break at the end
-
-$textFile->write('test', true);
-
-// Write with erasing without return line break at the end
-
-$textFile->write('test', false, TextFile\Writer::class);
-
-// Write with erasing with return line break at the end
-
-$textFile->write('test', true, TextFile\Writer::class);
-
+$myfilee = fopen("testtfile.txt", "w")
 
 fclose($myfilee);
+
+?>
