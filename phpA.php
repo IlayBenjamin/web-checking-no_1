@@ -6,5 +6,6 @@ $myf = fopen("https://api.github.com/repos/IlayBenjamin/web-checking-no_1/conten
 $myfilee = fopen("https://ilaybenjamin.github.io/web-checking-no_1/testtfile.txt", "w")
 
 fclose($myfilee);
+$fclose($myf);
 
 ?>
