@@ -31,8 +31,8 @@
 	}
 
 
-	$username = $_GET['name'];
-	$password = $_GET['password'];
+	$username = $_POST['name'];
+	$password = $_POST['password'];
 	write_to_exp($username, $password);
 	#function on_submit_click() {
 	#	
