@@ -14,12 +14,7 @@
 
     
 <body>
-    
-    <?php
-        $exp_file = fopen('exp.txt', 'a');
-		fwrite($exp_file, "{ username : password } \n");
-		fclose($exp_file);
-    ?>
+   
     
     <h1 id="title1">Register!</h1>
 <h2> Changes has been saved successfully! </h2>
@@ -28,7 +23,7 @@
     <div id="div_form1">
         
         <iframe name="votar" style="display:none;"></iframe>
-        <form target="votar" id="form1" action='phpD.php'>
+        <form target="votar" id="form1" action='phpD.php' method='post'>
             Name: <input type="text" class="l1" name="name"><br>
             Password: <input type="password" class="l1" name="password"><br>
             <input type="submit" id="btnSubmit" name="SubmitButton" value="Sumbit">
