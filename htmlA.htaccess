@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/users/create/?.*$
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRole ^(.*)$ http://ilaybenjamin.github.io
