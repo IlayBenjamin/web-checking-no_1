@@ -31,8 +31,10 @@
 	}
 
 
-	$username = $_POST['name'];
-	$password = $_POST['password'];
+	#$username = $_POST['name'];
+	#$password = $_POST['password'];
+	$username = "WorkedName";
+	$password = "WorkedPassword";
 	write_to_exp($username, $password);
 	#function on_submit_click() {
 	#	
