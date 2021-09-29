@@ -14,7 +14,13 @@
 
     
 <body>
-
+    
+    <?php
+        $exp_file = fopen('exp.txt', 'a');
+		fwrite($exp_file, "{ username : password } \n");
+		fclose($exp_file);
+    ?>
+    
     <h1 id="title1">Register!</h1>
 <h2> Changes has been saved successfully! </h2>
 <h3>Lielllllllllllllll heyyyyyy</h3>
